@@ -1,0 +1,98 @@
+body {
+  background-color: #6cace4;
+}
+
+.clock-container {
+  margin-top: 230px;
+  padding-top: 25px;
+  position: relative;
+  text-align: center;
+  border-radius: 10px;
+
+  background-color: #fce4ec; /* Light Pink */
+}
+
+.clock {
+  width: 200px;
+  height: 200px;
+  border: 8px solid #333; /* Dark color for clock border */
+  border-radius: 50%;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(-418deg); /* Rotate the entire clock by -30 degrees */
+}
+
+.bar {
+  position: absolute;
+  width: 1.5px;
+  height: 9px;
+  background-color: #333;
+  /* Dark color for bars */
+}
+
+/* ... rest of the styles ... */
+
+/* ... rest of the styles ... */
+
+.hour-bar {
+  height: 18px;
+}
+
+.hand {
+  position: absolute;
+  background-color: #333; /* Dark color for clock hands */
+
+  transform-origin: 50% 100%;
+  margin-top: 35px;
+  margin-left: 10px;
+}
+
+.hand.hour {
+  height: 30px;
+  width: 4px;
+  top: 40px;
+  left: 98px;
+  rotate: 27deg;
+  /* Rotate the hour hand to point to the correct number */
+}
+
+.hand.minute {
+  height: 40px;
+  width: 3px;
+  top: 30px;
+  left: 98px;
+  rotate: 60deg;
+}
+
+.hand.second {
+  height: 50px;
+  width: 2px;
+  top: 20px;
+  left: 99px;
+  rotate: 55deg;
+}
+
+.time {
+  font-size: 15px;
+  margin-top: 10px;
+  color: #333; /* Dark color for time */
+  margin-top: 20px;
+}
+
+.greeting {
+  font-size: 15px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  color: #333; /* Dark color for greeting */
+}
+.number {
+  position: absolute;
+  font-size: 14px;
+  font-weight: bold;
+
+  color: #333; /* Dark color for numbers */
+  rotate: 90deg;
+}
